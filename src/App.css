@@ -1,0 +1,72 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #05024a;
+    min-height: 100vh;
+}
+.title {
+    color: white !important;
+    margin-bottom: 60px !important;
+}
+
+.swap {
+    width: 25px;
+    height: 25px;
+
+    @media (max-width: 768px) {
+        transform: rotate(90deg);
+    }
+}
+
+.swap path {
+    fill: white;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+.input {
+    width: 200px;
+
+    @media (max-width: 400px) {
+        width: 100%;
+    }
+}
+
+.ant-input-number-group-addon {
+    font-size: 16px;
+    background-color: #fff !important;
+}
+
+.select {
+    @media (max-width: 400px) {
+        width: 100%;
+    }
+}
+
+.ant-select-selection-item .icon {
+    padding-bottom: 4px;
+}
+
+.ant-select-item-option-content {
+    display: flex;
+    align-items: center;
+}
