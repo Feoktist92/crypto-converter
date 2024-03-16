@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Typography } from 'antd';
 import CurrencyInput from './components/CurrencyInput';
-import { fetchCurrencyRates } from './api';
+import { fetchCurrencyRates } from './api/api';
 import SwapIcon from './assets/swap.svg';
 
-import './App.css';
+import './styles/App.css';
 
 interface CurrencyRates {
     [key: string]: number;
